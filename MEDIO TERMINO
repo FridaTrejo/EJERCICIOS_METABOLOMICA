@@ -1,0 +1,28 @@
+---
+title: "FRIDA MT"
+author: "Frida R."
+date: "2025-03-05"
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r}
+Nombre<-c("Sonia","Rebeca","Juan","Amanda", "Gilberto")
+Edad<-c(25,20,19,19,25)
+Estatura<-c(1.60,1.78,1.90,1.55,1.70)
+```
+```{r}
+Tabla_edad<- data.frame(Nombre=Nombre, Edad=Edad, Estatura=Estatura)
+```
+```{r}
+View(Tabla_edad)
+```
+```{r}
+Prom_edad<-mean(Edad)
+Prom_estatura<-mean(Estatura)
+```
+
+
+
+
+
